@@ -12,6 +12,10 @@
 		9E4631FF1CC5D64C0057CFD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4631FD1CC5D64C0057CFD7 /* Main.storyboard */; };
 		9E4632011CC5D64C0057CFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4632001CC5D64C0057CFD7 /* Assets.xcassets */; };
 		9E4632041CC5D64C0057CFD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4632021CC5D64C0057CFD7 /* LaunchScreen.storyboard */; };
+		9E46320E1CC5E2960057CFD7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46320D1CC5E2960057CFD7 /* Car.swift */; };
+		9E4632101CC5E30E0057CFD7 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46320F1CC5E30E0057CFD7 /* SampleData.swift */; };
+		9E4632121CC5E8080057CFD7 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4632111CC5E8080057CFD7 /* CarsViewController.swift */; };
+		9E4632161CC82E840057CFD7 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4632151CC82E840057CFD7 /* car.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9E4632001CC5D64C0057CFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E4632031CC5D64C0057CFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E4632051CC5D64C0057CFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E46320D1CC5E2960057CFD7 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9E46320F1CC5E30E0057CFD7 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		9E4632111CC5E8080057CFD7 /* CarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		9E4632151CC82E840057CFD7 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = Assets.xcassets/Images/car.imageset/car.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 				9E4631F91CC5D64C0057CFD7 /* AppDelegate.swift */,
 				9E4631FB1CC5D64C0057CFD7 /* ViewController.swift */,
 				9E4631FD1CC5D64C0057CFD7 /* Main.storyboard */,
+				9E4632111CC5E8080057CFD7 /* CarsViewController.swift */,
 				9E4632001CC5D64C0057CFD7 /* Assets.xcassets */,
+				9E4632151CC82E840057CFD7 /* car.png */,
 				9E4632021CC5D64C0057CFD7 /* LaunchScreen.storyboard */,
 				9E4632051CC5D64C0057CFD7 /* Info.plist */,
+				9E46320D1CC5E2960057CFD7 /* Car.swift */,
+				9E46320F1CC5E30E0057CFD7 /* SampleData.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -122,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4632161CC82E840057CFD7 /* car.png in Resources */,
 				9E4632041CC5D64C0057CFD7 /* LaunchScreen.storyboard in Resources */,
 				9E4632011CC5D64C0057CFD7 /* Assets.xcassets in Resources */,
 				9E4631FF1CC5D64C0057CFD7 /* Main.storyboard in Resources */,
@@ -137,6 +150,9 @@
 			files = (
 				9E4631FC1CC5D64C0057CFD7 /* ViewController.swift in Sources */,
 				9E4631FA1CC5D64C0057CFD7 /* AppDelegate.swift in Sources */,
+				9E4632121CC5E8080057CFD7 /* CarsViewController.swift in Sources */,
+				9E46320E1CC5E2960057CFD7 /* Car.swift in Sources */,
+				9E4632101CC5E30E0057CFD7 /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kwadhera.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -266,6 +283,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kwadhera.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
