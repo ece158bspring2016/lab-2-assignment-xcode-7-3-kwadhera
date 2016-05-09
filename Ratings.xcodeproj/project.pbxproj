@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3CB0E61CDF183B00A741A3 /* CarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CB0E51CDF183B00A741A3 /* CarDetailsViewController.swift */; };
 		9E4631FA1CC5D64C0057CFD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4631F91CC5D64C0057CFD7 /* AppDelegate.swift */; };
 		9E4631FC1CC5D64C0057CFD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4631FB1CC5D64C0057CFD7 /* ViewController.swift */; };
 		9E4631FF1CC5D64C0057CFD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4631FD1CC5D64C0057CFD7 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E3CB0E51CDF183B00A741A3 /* CarDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailsViewController.swift; sourceTree = "<group>"; };
 		9E4631F61CC5D64C0057CFD7 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4631F91CC5D64C0057CFD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E4631FB1CC5D64C0057CFD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				9E4631F91CC5D64C0057CFD7 /* AppDelegate.swift */,
 				9E4631FB1CC5D64C0057CFD7 /* ViewController.swift */,
 				9E4631FD1CC5D64C0057CFD7 /* Main.storyboard */,
+				9E3CB0E51CDF183B00A741A3 /* CarDetailsViewController.swift */,
 				9E4632111CC5E8080057CFD7 /* CarsViewController.swift */,
 				9E4632001CC5D64C0057CFD7 /* Assets.xcassets */,
 				9E4632151CC82E840057CFD7 /* car.png */,
@@ -150,6 +153,7 @@
 			files = (
 				9E4631FC1CC5D64C0057CFD7 /* ViewController.swift in Sources */,
 				9E4631FA1CC5D64C0057CFD7 /* AppDelegate.swift in Sources */,
+				9E3CB0E61CDF183B00A741A3 /* CarDetailsViewController.swift in Sources */,
 				9E4632121CC5E8080057CFD7 /* CarsViewController.swift in Sources */,
 				9E46320E1CC5E2960057CFD7 /* Car.swift in Sources */,
 				9E4632101CC5E30E0057CFD7 /* SampleData.swift in Sources */,
@@ -306,6 +310,7 @@
 				9E46320A1CC5D64C0057CFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

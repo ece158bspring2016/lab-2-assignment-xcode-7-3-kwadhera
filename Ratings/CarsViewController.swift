@@ -44,11 +44,28 @@ class CarsViewController: UITableViewController {
         let car = cars[indexPath.row] as Car
         (cell.viewWithTag(100) as? UILabel)?.text = car.type
         (cell.viewWithTag(101) as? UILabel)?.text = String(car.year)
-        (cell.viewWithTag(102) as? UIImageView)?.image = UIImage(named: "car.png")
+        if (car.isSedan){
+            (cell.viewWithTag(102) as? UIImageView)?.image = UIImage(named: "car.png")
+        }
         
         return cell
     }
     
+    @IBAction func cancelToCarsViewController(segue:UIStoryboardSegue) {
+    }
+    
+    @IBAction func saveCarDetail(segue:UIStoryboardSegue) {
+        if let carDetailsViewController = segue.sourceViewController as? CarDetailsViewController {
+            
+            if let car = carDetailsViewController.car {
+                cars.append(car)
+                
+                //update the tableView
+                let indexPath = NSIndexPath(forRow: cars.count-1, inSection: 0)
+                tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            }
+        }
+    }
     
     /*
      // Override to support conditional editing of the table view.
